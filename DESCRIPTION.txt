@@ -1,0 +1,16 @@
+🤖 Ultron: The Python Assistant
+
+Ultron is a modular, command-line-based Python assistant designed to help automate everyday tasks, 
+streamline workflows, and serve as a personal productivity tool — all without relying on AI or internet-based services.
+
+🔧 Features
+
+🧩 Modular design — add or remove features with ease
+
+🖥️ CLI-based interface for simplicity and speed
+
+🌐 Basic web utilities (open websites)
+
+🎵 Open Your Favourite Music
+
+📌 Custom commands and scripting support
