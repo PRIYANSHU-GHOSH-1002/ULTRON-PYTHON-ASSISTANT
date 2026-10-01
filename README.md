@@ -1,24 +1,36 @@
 ULTRON — Voice-Controlled Python Assistant
-
 Ultron is a lightweight voice-controlled personal assistant built with Python. It listens for a wake word, processes spoken commands, responds using text-to-speech, and automates everyday actions such as opening websites and playing music through predefined commands.
+
 The project focuses on speech-based automation and modular command handling without relying on AI.
 
 🎙️ Features
 Wake-word activation using "Ultron"
+
 Speech-to-text command recognition
+
 Text-to-speech responses
+
 Opens commonly used websites through voice commands
+
 Plays songs using a custom music library
+
 Modular command-processing function
+
 Simple fallback responses for unsupported commands
+
 Continuous listening loop
 
 🛠️ Technology Stack
 Language: Python
+
 Speech Recognition: SpeechRecognition
+
 Text-to-Speech: pyttsx3
+
 Browser Automation: Python webbrowser
+
 Audio Input: Microphone via SpeechRecognition
+
 Custom Module: music_lib
 
 🧠 How It Works
@@ -40,8 +52,11 @@ The assistant continuously listens for the wake word "Ultron". Once detected, it
 For example:
 
 User: "Ultron"
+
 Ultron: "INITIALIZING ULTRON"
+
 User: "Open YouTube"
+
 Ultron: "Aye aye sir"
 
 → YouTube opens in the browser
@@ -58,8 +73,8 @@ Songs are looked up from the custom music_lib module.
 
 Unsupported Commands
 If a command is not recognized, Ultron responds:
-Negative sir
 
+Negative sir
 📁 Project Structure
 ULTRON/
 │
@@ -72,12 +87,16 @@ Contains the main assistant logic, including:
 Microphone input
 
 Speech recognition
-Wake-word detection
-Command processing
-Text-to-speech responses
-Browser automation
-music_lib.py
 
+Wake-word detection
+
+Command processing
+
+Text-to-speech responses
+
+Browser automation
+
+music_lib.py
 Stores predefined songs and their corresponding links used by the music command.
 
 ▶️ Running the Project
@@ -114,14 +133,23 @@ This allows the assistant to be extended with additional websites, utilities, sc
 
 🚀 Future Improvements
 Possible extensions include:
+
 More voice commands
+
 System-level automation
+
 File and application management
+
 Weather and connectivity utilities
+
 Custom command configuration
+
 Better error handling
+
 Offline speech recognition
+
 Plugin-based command modules
+
 Voice-controlled productivity tools
 
 📌 Project Type
